@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="pullablelayout_config"><attr name="pullablelayout_side">
+    <flag name="TOP" value="1"/>
+    <flag name="LEFT" value="2"/>
+    <flag name="BOTTOM" value="4"/>
+    <flag name="RIGHT" value="8"/>
+</attr><attr format="float" name="pullablelayout_distanceRatio"/><attr format="float" name="pullablelayout_verticalAngle"/><attr format="float" name="pullablelayout_horizontalAngle"/></declare-styleable>
+<item name="pullablelayout_icon_imageView" type="id"/>
+<item name="pullablelayout_loading_imageView" type="id"/>
+<item name="pullablelayout_previous_update_textView" type="id"/>
+<item name="pullablelayout_resultImageView" type="id"/>
+<item name="pullablelayout_status_textView" type="id"/>
+<string name="pullablelayout_load_failed">Load failed</string>
+<string name="pullablelayout_load_succeed">Load succeed</string>
+<string name="pullablelayout_loading">Loading</string>
+<string name="pullablelayout_previous_update_date_format">yyyy-MM-dd hh:mm:ss</string>
+<string name="pullablelayout_previous_update_format">Previously update at %1$s</string>
+<string name="pullablelayout_previous_update_time">Previously update at %1$s</string>
+<string name="pullablelayout_pull_to_load">Pull to load</string>
+<string name="pullablelayout_release_to_load">Release to load</string>
+</resources>
